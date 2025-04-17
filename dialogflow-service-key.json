@@ -1,13 +1,2 @@
-{
-  "type": "service_account",
-  "project_id": "sevoneera-2026-bxgr",
-  "private_key_id": "86a9c38d8b5194c36696201a5eccb34142cd66f8",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdnZOEdI3BWBWy\nA18Mb2Rvm9b7/CAm9KXQ28pTpvjXmDfBgYAHp1SabxKQghdkyV7os2lf4S0JDKdq\nQWUcG/4QVfX7kU9uP5w+D8nqivA3s/8OxDlox8RnGrzigODpH4sy7M/2M6Gx97ec\n65+hEMXB3ccoCIW1LHrjufBft+npGAQ69VamcWNXKmH34l0hyUeq/rX7iaW/LeKm\nheH6YDJ9II33FGlkNBbNZHfCpD+78h5ARr5nKYToGL146GrL/5zjCCTF7kBnCATX\ngaEGGzaZiYYMz5GlyijWZ3DQdqRQjbM9S2hSGv68qFzijjgg/VhK+TBfa6yjnmXJ\nVVNGCL+XAgMBAAECggEAQrLbqco+8KpLaAz4LIV5Daf3lqPvoTyXbOaN3M+Eb4vJ\nUHhySwrbCQ1m4ENFDhAPO08tEPdzvOgfcp4g4P/RiG0wDpjD8cY2YqcAzeGk3RWt\nIj0UhExBR1ZvxzQ9uTlxiQfgy3G3A95t05h8cUbtQOiOrljI6E3d5T+awo7MDCjE\nStH55co8R0p4P2rVlpZ5DEEfEzx4C5fCtRc3UEsomZmvZaarWequaNcDnL32H9kK\nL6hG5PCjLsu/Rgi8C0IQ4w8ROyb4V3+Z99WJRtqVeVG5FFn8oEWF5KswC4fQF0C6\njZvaX9fmqMt87F21LRYjDyfnc+0mGgv3crFFseb5rQKBgQDd6ilPsWkaaLSYciPj\nM/BFgwcAN4cCMK4y43Gwmls6AfsVRPFEiiRuzS6waRPIwiIHVTnEBR2Rkzx8oC6p\nbjkvSPZysIJ1/eDI/FFx45Wa7AKgMjNbTLQKqo3nYu5prWGWI6T37oYVyToGmQLR\ngIOb1ukYNRqeqHj4PiQAlZxQ1QKBgQC10yCoLtamlNnE8e6PHBRDhEceamOPDM8d\nNRVhQTPzikvD3iApk77y+PSXg5FoUubNJ1nFwuUhLlm4nMy7o4MbcVWboe8Jodge\nH+pbfB3S/TpMN55Gi6afh1uRYyh7e4heAejdBy8uz87uCqQAFuEu8/uBGNUsbm2O\nhzivf2zkuwKBgAxKogsl+npZ/lbLS62T/OT8wvCCIto+NAfhjTSI+DCYV33wGaUA\nOdBhUQq4Zz4hcp0RXWe8GM0taJZGkQ8VadlyoyPrHu7GJyM6xpAWWP0BwYt5/Fo8\nP2Sv2bhNRINZ9SPJyaNp9MdUJACljQBpq+B/4N1UY6sSDdFCL+BQaR4ZAoGABELu\ngQKYBU93yyXgcXo2/14aTJwxuSiTshuMZLsifJLBM9YA6viLgSZUlTiAL/HBdw11\nDS2EMULk127VXZB3gi0l1H/3GkKwzgPxejNuf4Nv2llzXDPps9N4UfABAuPiTlG9\nI3EHqhE0yF93eIkQvgj53Ay48lGkP7LroTFbXAECgYEAnWzUGr14pg0EH2CCOpvt\nzZDt0ME26z6ZmG/JUQBu8XMa+O2mMW846TxxgCGl8Wc64bAhL+IcTHjG8d8QWfrR\n0FkgQhU91JUDIvoxNUm3OG2TyzrgwflKAUz2h9COfyiZzf6J2fvKun1dkfBmQzuC\nEW9HJxu1UU3V0kJuZd8z1Sg=\n-----END PRIVATE KEY-----\n",
-  "client_email": "dialogflow-bot@sevoneera-2026-bxgr.iam.gserviceaccount.com",
-  "client_id": "103873088293883642992",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-bot%40sevoneera-2026-bxgr.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
+
+{ "your": "service-account-details-go-here" }
