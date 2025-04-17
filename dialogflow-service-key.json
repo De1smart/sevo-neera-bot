@@ -1,2 +1,13 @@
-
-{ "your": "service-account-details-go-here" }
+{
+  "type": "service_account",
+  "project_id": "sevoneera-2026-bxgr",
+  "private_key_id": "d4c23d2cf43aa25c76eb73d59ce538385cc411a8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDIViuMzPz8LPDK\n+Qwnmen7c5LO5m0hhcOaT2hmLrcQqUGr1s4D9K3FTF1bHudvKvhi9Igju+dhc3/0\nRylr9ACF0RTpup/AZh/HwYv+Fi6VrOVC4HV8nOMlut5utYwquK9qFoVtMYn735UA\nW9DtT3FsTYhH/OpdbryxRmVoHlMt9oe9DQduzzTKunM3XLnT1Y5qoJKW4pnYjxAV\nd+MWuLn19EByH4wVZdybg50tMX2KSv7LV0EdMtv568wlRLBEO9TNKdedbDdPwgbJ\nF10ryBhQbCQkNoCLrLNa+nXcYP0eeLT+T0EkcEyDbafkYnJJPE9/jySjvKZFArxh\n3tzMSpkzAgMBAAECggEAFVKypPRmkvK3mGsEo6xqrqRhAludTv2dUa3VB1c+jevt\n/PvKhrpCyqazoxC5gmgY8vNjECaeXI1+F4KBgqeAbL3R04TVHxXfmRPdMiirQawa\n5NDeQGq0dJ4csbzqE9v/c7O89N/ad3AXPGgJZ1DW2jewYzUkvtgcBmRfQ8NCiDgu\niRphMrwrSvvn6nX/eTTG8J8MsUe//+OnIlQUiquHaBG68pt7MSV0Y9VDjWrAG452\nrLlLOfTIE/G8342y1P1yPj9WzVKrmhyiOSBxHhl/Dd5gZ1t6cGreipTKi/IkUdZz\n7ytLiHIFyrcFgilFGXalyJZdgA7sfubt6XfykZTM0QKBgQDlNIlH/BojcgMyY8I7\nTczuw2x/ukcK1/gRvb7UQBjDA7VSiG9co48oJuzVjqsZ6os8YebiRGN14LUAC0Yk\nurFT8kKC7pQbidC/T+vScnZ5BpHQ+jJ7aK8zn2riQMhGbRqkC60JwipzIRo5ojUe\nLFKZIKuLdUrFVamF/9NNfbe2owKBgQDfwa2FBIVR+Ctkx2wbpYgFm+/a/g/LkgHq\n8o1C7LcxXm6aE/Nj4lY3oOqyv6wUOx2Jl/UK2Z4ElCDy/iLv7EDkpz7bsiXu7xe/\nKREJHeQDLBLLxQpSUgKCj3QoNxr4WYQrRoVq+Z8At7cLWHr51010HmbjkyuiEw9q\ncg0sWDsMMQKBgFroCF7VnWRbjusIZ/vvco1sUvch4ZVqbQhUUoCKX4fRS7RNSqXa\ndSf+sEZPTIt92/V5+wHZD/2rvv4iepKMvVJHLpwRlgqKEZIfV6/jGBwOP/07jpQl\nw/9chh7whL5x/XP88YeCTCXXhjg/noO2Hph/PaqVPa+gtxjfi2Ybq6azAoGBAI2l\nHoI5JWiJcHbgozgxJpVebI02DauxpxMjLndyQFm5TMyu2oGdkzSt4kT7fyRjc8RZ\ndJ7EufpuBxmr9VPqO/5DPVB4SvkhU+gISCd8S44ShWeHOYx5K+uYglC+6YzTpg57\nGxRoJtaedfpxrY+hUv+yCzH/RTzZUgXxYxNyWxbRAoGABl7nRHfoBAc092VB6aSS\nxwWK6wAhcWRRf6y8m5C4wE9OGrRhLb7iGyPQntcJCOAQ8NULm61P9g8rS/kTXuzL\nUt1NhGhSl+6z84eADMCCC/v7rAhd0rXj+HZs8krGlX3PTA9r7GBqTAD7nsxL+Dvl\nnI0omSXj6brN7rJn5EKf6r8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-bot@sevoneera-2026-bxgr.iam.gserviceaccount.com",
+  "client_id": "103873088293883642992",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-bot%40sevoneera-2026-bxgr.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
