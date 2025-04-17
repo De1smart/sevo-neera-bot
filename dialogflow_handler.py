@@ -3,7 +3,6 @@ import os
 from google.cloud import dialogflow_v2 as dialogflow
 from google.api_core.exceptions import InvalidArgument
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "dialogflow-service-key.json"
 DIALOGFLOW_PROJECT_ID = "sevoneera-2026-bxgr"
 DIALOGFLOW_LANGUAGE_CODE = "en"
 SESSION_ID = "current-user-id"
