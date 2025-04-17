@@ -1,6 +1,6 @@
 
 import os
-import dialogflow_v2 as dialogflow
+from google.cloud import dialogflow_v2 as dialogflow
 from google.api_core.exceptions import InvalidArgument
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "dialogflow-service-key.json"
