@@ -1,39 +1,44 @@
-import os
 from flask import Flask, request
+import os
+from twilio.twiml.messaging_response import MessagingResponse
 from google.cloud import dialogflow_v2 as dialogflow
-import json
+import uuid
 
-app = Flask(__name__)
-
-# Set the credentials environment variable
+# Ensure your service account file is recognized
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "dialogflow-service-key.json"
 
-# Dialogflow settings
-DIALOGFLOW_PROJECT_ID = "sevoneera-2026-bxgr"
-DIALOGFLOW_LANGUAGE_CODE = "en"
-SESSION_ID = "me"
+# Initialize Flask app
+app = Flask(__name__)
 
+# Root route to confirm the app is live
+@app.route("/")
+def home():
+    return "Sevo Neera @2026 WhatsApp bot is running."
+
+# Webhook route for Twilio
 @app.route("/webhook", methods=["POST"])
 def webhook():
-    try:
-        incoming_msg = request.json["Body"]
-        response_text = detect_intent_text(incoming_msg)
-        return response_text
-    except Exception as e:
-        return "Something went wrong while contacting Dialogflow"
-
-def detect_intent_text(text):
+    incoming_msg = request.values.get("Body", "")
+    phone_number = request.values.get("From", "")
+    
+    session_id = str(uuid.uuid4())
     session_client = dialogflow.SessionsClient()
-    session = session_client.session_path(DIALOGFLOW_PROJECT_ID, SESSION_ID)
+    session = session_client.session_path("sevoneera-2026-bxgr", session_id)
 
-    text_input = dialogflow.TextInput(text=text, language_code=DIALOGFLOW_LANGUAGE_CODE)
-    query_input = dialogflow.QueryInput(text=text_input)
+    text_input = dialogflow.types.TextInput(text=incoming_msg, language_code="en")
+    query_input = dialogflow.types.QueryInput(text=text_input)
 
-    response = session_client.detect_intent(
-        request={"session": session, "query_input": query_input}
-    )
+    try:
+        response = session_client.detect_intent(request={"session": session, "query_input": query_input})
+        reply = response.query_result.fulfillment_text
+    except Exception as e:
+        reply = "Sorry, something went wrong while contacting Dialogflow."
+        print(f"[ERROR] {e}")
 
-    return response.query_result.fulfillment_text
+    # Reply via Twilio
+    twilio_response = MessagingResponse()
+    twilio_response.message(reply)
+    return str(twilio_response)
 
 if __name__ == "__main__":
     app.run()
